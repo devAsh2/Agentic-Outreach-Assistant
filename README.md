@@ -4,14 +4,6 @@ A full-stack AI application that uses a collaborative team of agents to generate
 
 ---
 
-### ✨ Live Demo GIF
-
-*(This is where you should insert a GIF of your application working. A 30-second clip showing a "first run" and then an "instant cached run" is perfect.)*
-
-![Demo GIF](link_to_your_demo.gif) 
-
----
-
 ### 🌟 Key Features
 
 *   **Multi-Agent Workflow:** A `Researcher` agent analyzes a target company's website, and a `Copywriter` agent uses that research to craft a personalized email.
@@ -76,11 +68,7 @@ Follow these steps to run the application locally.
 
 4.  **Access the application:**
     *   Open your web browser and go to `http://localhost:3000`.
-
+    *   Enter the url you want to research and your product description in the input fields.
+    *   Wait for some time, if it's a new url or if it's a previously entered url generated email will be loaded almost instantly.
 ---
 
-### 💡 The Toughest Challenge: "Dependency Hell"
-
-The most significant challenge was resolving a series of cascading dependency conflicts within the AI library stack. Manually pinning versions of `crewai`, `langchain`, and `openai` created an impossible situation for the package manager.
-
-**Solution:** I overcame this by adopting a modern, flexible dependency strategy. I removed all non-essential version pins for the AI libraries in `requirements.txt` and updated the Python code to be compatible with the latest stable versions. This allowed `pip`'s dependency resolver to find a valid, working combination of packages and resulted in a more robust and maintainable project.
