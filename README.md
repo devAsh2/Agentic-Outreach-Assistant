@@ -66,7 +66,12 @@ Follow these steps to run the application locally.
     ```
     The first build will take a few minutes. Subsequent builds will be much faster.
 
-4.  **Access the application:**
+    For subsequent run of the application, run the command:
+    ```bash
+    docker-compose up 
+    ```
+
+5.  **Access the application:**
     *   Open your web browser and go to `http://localhost:3000`.
     *   Enter the url you want to research and your product description in the input fields.
     *   Wait for some time, if it's a new url or if it's a previously entered url generated email will be loaded almost instantly.
