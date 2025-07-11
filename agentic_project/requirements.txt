@@ -1,0 +1,16 @@
+# requirements.txt - The Final, Modern, and Flexible Stack
+
+# --- Core Web Stack (Pinned for stability) ---
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+python-dotenv==1.0.1
+
+# --- Core AI Libraries (Let pip resolve the complex sub-dependencies) ---
+# We demand a modern version of openai and let everything else adapt.
+openai>=1.14.0
+crewai
+crewai-tools
+langchain-community
+langchain-openai
+qdrant-client

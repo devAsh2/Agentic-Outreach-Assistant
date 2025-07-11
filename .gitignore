@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# Environment
+.env
+*.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+*.out
+*.err
+
+# Byte-compiled / packages / caches
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# React frontend (Node.js)
+agentic-ui/node_modules/
+agentic-ui/.env
+agentic-ui/.next/
+agentic-ui/.cache/
+agentic-ui/build/
+agentic-ui/dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.old
+*.orig
+*.swp
+
+# Local overrides
+docker-compose.override.yml
+
+# Coverage
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+
+# Output from profiling tools
+*.prof
+
+# Nginx cache/temp (if used locally)
+nginx_cache/
